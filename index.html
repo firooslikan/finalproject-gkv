@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <style>
+        .chart-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px; /* Adjust the gap between charts as needed */
+        }
+        .chart {
+            flex: 1 1 calc(50% - 20px); /* Adjust width and gap here */
+            min-width: 300px; /* Ensure charts don't get too small */
+        }
+        .combined-chart-container {
+            display: flex;
+            gap: 20px; /* Adjust the gap between bubble chart and map */
+            margin-top: 20px; /* Add margin to separate from charts above */
+            align-items: flex-start; /* Align items at the top */
+        }
+        #bubbleplot {
+            flex: 1; /* Make bubble chart take up remaining space */
+            min-width: 300px; /* Ensure bubble chart doesn't get too small */
+        }
+        .iframe-container {
+            flex: 1; /* Make iframe container take up remaining space */
+            min-width: 300px; /* Ensure iframe doesn't get too small */
+        }
+    </style>
+</head>
+<body>
+    <div class="chart-container">
+        <div id="barplot1" class="chart"></div>
+        <div id="barplot2" class="chart"></div>
+        <div id="barplot3" class="chart"></div>
+        <div id="barplot4" class="chart"></div>
+        <div id="barplot5" class="chart"></div>
+        <div id="barplot6" class="chart"></div>
+        <div id="barplot7" class="chart"></div>
+        <div id="barplot8" class="chart"></div>
+    </div>
+    
+    <div class="combined-chart-container">
+        <div id="bubbleplot" class="chart"></div>
+        <div class="iframe-container">
+            <iframe width="600" height="450" src="https://lookerstudio.google.com/embed/reporting/dee1562b-f0aa-43d6-a278-bc09313e0ebf/page/FKa0D"
+                frameborder="0" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
+        </div>
+    </div>
+
+    <script src="bar.js"></script>
+    <script src="bubble.js"></script>
+</body>
+</html>
