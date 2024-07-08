@@ -21,3 +21,9 @@ Proyek yang diangkat memiliki topik Visualisasi Produktivitas Padi di Pulau Suma
 Data yang kami gunakan berasal dari website Kaggle. <br>
 Sumber: https://www.kaggle.com/datasets/ardikasatria/datasettanamanpadisumatera
 
+---
+
+# Record Presentasi
+
+Presentasi kami terhadap visualisasi yang telah dilakukan dapat diakses melalui link berikut. <br>
+https://ipb.link/fpgkvkel1
